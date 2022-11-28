@@ -1,0 +1,30 @@
+[
+    {
+        "pageheader": "Home",
+        "filename": "index"
+    },
+    {
+        "pageheader": "Grienvance Generator",
+        "filename": "grienvancegenerator"
+    },
+    {
+        "pageheader": "Archives",
+        "filename": "archives"
+    },
+    {
+        "pageheader": "Government Contacts",
+        "filename": "governmentcontactlist"
+    },
+    {
+        "pageheader": "Judicial Decisions",
+        "filename": "judicialdecisions"
+    },
+    {
+        "pageheader": "Government Decisions",
+        "filename": "governmentdecisions"
+    },
+    {
+        "pageheader": "Contact Us",
+        "filename": "contactus"
+    }
+]

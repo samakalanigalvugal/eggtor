@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+  text-decoration: none;
+}
+.menu a{
+  text-decoration: none;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.selected{
+  display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #135b9b;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+.outererrormessage {
+  text-align: center!important;
+  font-weight: bold!important;
+  color: #df0505!important;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+.redborder{  
+  border: 1px solid #9b1717!important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+.header
+{
+  background-color:#f1f1f1;
+  padding:15px;
+  height: 50px;
+  border: 1px solid black;
+}
+.fa-logo:before { 
+  background-image: url("/images/logo.jpg");
+}
+.tilesection
+{
+  padding-left: 10px;
+}
+.footer
+{
+  color: #fff!important;
+  background-color: #000!important;
+  border-top-color: #32a1ce;
+  border-top-style: solid;
+  text-align: center!important;
+}
+
+.w3-section, .w3-code {
+  margin-top: 16px!important;
+  margin-bottom: 16px!important;
+}
+.xlarge {
+  font-size: 24px!important;
+}
+* {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+.w3-black, .w3-hover-black:hover {
+  color: #fff!important;
+  background-color: #000!important;
+}
+.center {
+  text-align: center!important;
+}

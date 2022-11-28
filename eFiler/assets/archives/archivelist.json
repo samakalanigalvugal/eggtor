@@ -1,0 +1,35 @@
+[
+    {
+        "imagenameandtype" : "The Panacea Cleanse.png",
+        "filename" : "The Panacea Cleanse",
+        "fileauthor" : "Nathen Crane",
+        "filepath" : "",
+        "filetitle" : "The Panacea Cleanse",
+        "fileclassified" : "Classified : Wealth",
+        "filetype" : ".pdf"
+    },
+    {
+        "imagenameandtype" : "img_avatar5.png",
+        "filename" : "ENCJM",
+        "filepath" : "ENCJM",
+        "filetitle" : "ENCJM",
+        "fileclassified" : "Classified : Law",
+        "filetype" : ".pdf"
+    },
+    {
+        "imagenameandtype" : "img_avatar6.png",
+        "filename" : "ENCJM",
+        "filepath" : "ENCJM",
+        "filetitle" : "ENCJM",
+        "fileclassified" : "Classified : Law",
+        "filetype" : ".pdf"
+    },
+    {
+        "imagenameandtype" : "img_avatar2.png",
+        "filename" : "ENCJM",
+        "filepath" : "ENCJM",
+        "filetitle" : "ENCJM",
+        "fileclassified" : "Classified : Law",
+        "filetype" : ".pdf"
+    }
+]

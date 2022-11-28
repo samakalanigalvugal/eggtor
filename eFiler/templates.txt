@@ -1,0 +1,136 @@
+Common:
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>eGGtor - Archives</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="assets/css/w3.css"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"/>
+      <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/>
+      <link rel="stylesheet" type="text/css" href="assets/css/main.css?ver=1" />
+      <script type="text/javascript" src="assets/script/jquery.min.js"></script>
+      <script type="text/javascript" src="assets/script/main.js?ver=1"></script>
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 10px;
+        }
+        
+        /* Remove extra left and right margins, due to padding */
+        .row {margin: 0 -5px;}
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+        
+        /* Style the counter cards */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          padding: 16px;
+          text-align: center;
+          background-color: #ffffff;
+        }
+        .card a{
+          text-decoration: none;
+        }
+        .archivetitlesection
+        {
+          padding-left: 10px;
+        }
+
+        </style>
+  </head>
+  <body style="font-family:Verdana;">  
+
+    <div id="pagetop" class="w3-bar w3-card-2 notranslate">
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-left w3-padding-16" title="Home" style="width:77px">
+        <span class="logo"><img src="assets/images/logo.jpg" style="width:40px;height:40px"></span>
+      </a>
+      
+      <style>
+      @media screen and (max-width: 1160px) {
+        .ws-hide-1160 {
+          display: none !important;
+        }
+      }
+      .topnavmain_pro {
+        background-color:#282A35;
+        color:#fff;
+      }
+      body.darkpagetheme .topnavmain_pro {
+        background-color:#fff;
+        color:#000;
+      }
+      </style>
+    
+      <span class="w3-bar-item w3-hide-small w3-padding-24" >Samakala Nigalvugal</span>
+      <div class="w3-right w3-padding-16">
+      </div>  
+    </div>
+  
+  
+
+    <div style="overflow:auto">
+      <div class="menu">
+      </div>
+
+      <div class="" id="<pageid>">
+        <h1><PageHeader></h1>
+            
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black footertopborder"></footer>
+
+    
+    <script>
+    // Modal Image Gallery
+    function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+    }
+    </script>
+</body>
+</html>
+
+/// Main Section
+Archive Page
+change pageid and PageHeader to specific pageid,page PageHeader
+and below add,
+
+<div class="column">
+            <div class="card">
+              <a href="<file to be downloaded>" target="_blank">
+                <h3><Title></h3>
+                <p> - by <autor></p>
+                <p> - by <additional info></p>
+                <p> - by <additional info></p>
+              </a>
+            </div>
+          </div>

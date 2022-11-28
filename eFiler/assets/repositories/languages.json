@@ -1,0 +1,18 @@
+[
+    {
+        "key": "TN",
+        "name" :"Tamil"
+    },
+    {
+        "key": "EN",
+        "name" :"English"
+    },
+    {
+        "key": "TL",
+        "name" :"Telugu"
+    },
+    {
+        "key": "KN",
+        "name" :"Kannada"
+    }
+]

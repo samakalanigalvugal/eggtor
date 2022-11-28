@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eGGtor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="assets/css/w3.css?vsr=1"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"/>
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+<script type="text/javascript" src="assets/script/jquery.min.js"></script>
+<script type="text/javascript" src="assets/script/main.js?ver=1"></script>
+<script>
+  var isIE = false;
+  var ua = window.navigator.userAgent;
+  var old_ie = ua.indexOf('MSIE ');
+  var new_ie = ua.indexOf('Trident/');
+  if ((old_ie > -1) || (new_ie > -1)) {
+      isIE = true;
+  }
+  if ( isIE ) {
+      window.open("wedontsupportpage.html","_self");
+  }
+</script>
+</head>
+<body style="font-family:Verdana;">
+
+  <div id="pagetop" class="bar card-2 notranslate">
+    <a href="index.html" class="bar-item button hover-none left padding-16" title="Home" style="width:77px">
+      <span class="logo"><img src="assets/images/logo.jpg" style="width:40px;height:40px"></span>
+    </a>
+    
+    <style>
+    @media screen and (max-width: 1160px) {
+      .ws-hide-1160 {
+        display: none !important;
+      }
+    }
+    .topnavmain_pro {
+      background-color:#282A35;
+      color:#fff;
+    }
+    body.darkpagetheme .topnavmain_pro {
+      background-color:#fff;
+      color:#000;
+    }
+    </style>
+  
+    <span class="bar-item hide-small padding-24" >Samakala Nigalvugal</span>
+    <div class="right padding-16">
+    </div>  
+  </div>
+
+<div style="overflow:auto">
+  <div class="menu">
+  </div>
+
+  <div class="main" id="archivespage">
+    
+    <!-- Container (Grievance Section) -->
+      
+    <div class="content container padding-64" id="grievance">
+
+      <div class="row padding-32 section">
+        <div class="col m8 panel">
+          
+            <h3 class="center">Judicial Decisions</h3>
+            <div class="row-padding" style="margin:0 -16px 8px -16px">
+                Judicial Decisions content
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+    <div class="footer"></div>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+document.getElementById("img01").src = element.src;
+document.getElementById("modal01").style.display = "block";
+var captionText = document.getElementById("caption");
+captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  var navbar = document.getElementById("myNavbar");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      navbar.className = "bar" + " card" + " animate-top" + " white";
+  } else {
+      navbar.className = navbar.className.replace(" card animate-top white", "");
+  }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("show") == -1) {
+      x.className += " show";
+  } else {
+      x.className = x.className.replace(" show", "");
+  }
+}
+</script>
+</body>
+</html>
+
+
